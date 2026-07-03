@@ -23,8 +23,10 @@ import type {
 } from "./types";
 
 // ── Backend configuration ────────────────────────────────────────────────
-export const BASE_URL: string = "https://api.zapveridian.local/v1";
-export const USE_MOCK = true;
+
+// export const BASE_URL: string = "https://api.zapveridian.local/v1";
+export const BASE_URL: string ="https://plain-papers-lead.loca.lt/";
+export const USE_MOCK = false;
 
 /** Thin fetch wrapper used once USE_MOCK is false. */
 async function http<T>(path: string, init?: RequestInit): Promise<T> {
