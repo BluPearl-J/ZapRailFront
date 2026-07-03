@@ -39,6 +39,4 @@ We have prioritized core functional workflows to ensure maximum value during the
 * **Analytics**: Advanced reporting features to visualize event processing metrics and throughput trends.
 * **Webhook Logs**: A dedicated UI interface for auditing historical event signatures and re-triggering failed webhooks.
 
----
 
-**Does this look correct to you, or would you like to add anything else to the "Live Demo" section before you commit this?**
