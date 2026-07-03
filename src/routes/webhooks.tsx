@@ -40,7 +40,7 @@ function WebhooksPage() {
         <div className="flex items-center gap-2 text-xs">
           <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
           <span className="text-muted-foreground">Listening on</span>
-          <code className="font-mono text-foreground">hooks.zapveridian.app</code>
+          <code className="font-mono text-foreground">zaprail-production.up.railway.app/webhooks</code>
         </div>
       </header>
 

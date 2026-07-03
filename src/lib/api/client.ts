@@ -48,7 +48,8 @@ export const api = {
     return delay({
       apiKey: "",
       apiSecret: "",
-      webhookUrl: "https://hooks.zapveridian.app/v1/nomba/wh_3a9f12b8c7d4e2f1",
+      // webhookUrl: "https://hooks.zapveridian.app/v1/nomba/wh_3a9f12b8c7d4e2f1",
+      webhookUrl:"https://zaprail-production.up.railway.app/webhooks",
     });
   },
 
