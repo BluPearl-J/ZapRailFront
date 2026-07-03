@@ -27,8 +27,9 @@ import type {
 // export const BASE_URL: string = "https://api.zapveridian.local/v1";
 // export const BASE_URL: string ="https://plain-papers-lead.loca.lt/";
 export const BASE_URL: string ="https://zaprail-production.up.railway.app/v1";
-export const USE_MOCK = false;
+// export const USE_MOCK = false;
 
+export const USE_MOCK = true;
 /** Thin fetch wrapper used once USE_MOCK is false. */
 async function http<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE_URL}${path}`, {
